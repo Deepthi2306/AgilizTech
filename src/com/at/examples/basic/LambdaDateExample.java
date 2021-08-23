@@ -1,7 +1,7 @@
 package com.at.examples.basic;
-
+@FunctionalInterface
 interface DateInt {
-	int dateDisplay();
+	int dateDisplay();//SAM
 }
 
 public class LambdaDateExample {
